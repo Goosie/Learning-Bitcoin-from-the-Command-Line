@@ -11,6 +11,8 @@ If you're using a Ubuntu machine, you can run the following commands to get a ne
 curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
 sudo apt-get install -y nodejs
 sudo apt-get install mocha -g
+
+npm install -g mocha
 ```
 ### Set Up BCRPC
 
