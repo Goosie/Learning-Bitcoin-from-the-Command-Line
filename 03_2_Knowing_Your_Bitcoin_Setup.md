@@ -274,7 +274,7 @@ $ bitcoin-cli getnetworkinfo
   "warnings": "Warning: unknown new rules activated (versionbit 28)"
 }
 ```
-Feel free to reference any of these and to use "bitcoin-cli help" if you want more information on what any of them do.
+Feel free to reference any of these and to use "bitcoin-cli help" if you want more information on what any of them do. And ofcourse when you have setup your aliases you can use the short command "bc", "bt" or "br instead of the long commands like "bitcoin-cli -testnet help" as explained in the previous chapter.
 
 ## Summary: Knowing Your Bitcoin Setup
 
