@@ -57,7 +57,11 @@ You'll receive a txid back when you issue this command.
 
 ## Examine Your Transaction
 
-You can look at your transaction using your transaction id:
+You can look at your transaction using your transaction id with the command:
+$ bitcoin-cli gettransaction 93250d0cacb0361b8e21030ac65bc4c2159a53de1075425d800b2d7a8ab13ba8
+or when you have you'r aliases setup
+$ bc gettransaction 93250d0cacb0361b8e21030ac65bc4c2159a53de1075425d800b2d7a8ab13ba8
+
 ```
 {
   "amount": -0.00100000,
