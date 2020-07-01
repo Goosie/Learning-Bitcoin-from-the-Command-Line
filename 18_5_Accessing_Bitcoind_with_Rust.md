@@ -4,6 +4,7 @@
 
 We'll need `Rust` and `Cargo`. Installing them is easy:
 
+#Install Rust:
 ```vim
 $ curl https://sh.rustup.rs -sSf | sh
 ```
@@ -13,6 +14,10 @@ If everything goes well, we should see:
 ```vim
 Rust is installed now. Great!
 ```
+
+#Install Cargo
+$ sudo apt-get install cargo
+
 
 To set `Bitcoin Regtest` network up and allow communication with our Rust program we
 will be using the following `bitcoind` configuration in `bitcoin.conf`
