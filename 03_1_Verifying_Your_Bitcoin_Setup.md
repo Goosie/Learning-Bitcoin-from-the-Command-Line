@@ -6,7 +6,7 @@ Before you start playing with Bitcoin, you should ensure that everything is setu
 
 We suggest creating some aliases to make it easier to use Bitcoin.
 
-You can do so by putting them in your `.bash_profile`.
+You can do so by putting them in your `.bash_profile`.   
 ```
 cat >> ~/.bash_profile <<EOF
 alias btcdir="cd ~/.bitcoin/" #linux default bitcoind path
@@ -16,6 +16,8 @@ alias btcinfo='bitcoin-cli getwalletinfo | egrep "\"balance\""; bitcoin-cli getn
 EOF
 ```
 After you enter these aliases you can either `source .bash_profile` to input them or just log out and back in.
+
+(When you are on Ubuntu 20.04 place your aliases in .bash_aliases)
 
 Note that these aliases includes shortcuts for running `bitcoin-cli`, for running `bitcoind`, and for going to the Bitcoin directory. These aliases are mainly meant to make your life easier. We suggest you create other aliases to ease your use of frequent commands (and arguments) and to minimize errors. Aliases of this sort can be even more useful if you have a complex setup where you regularly run commands associated with Mainnet, with Testnet, _and_ with Regtest, as explained further below.
 
